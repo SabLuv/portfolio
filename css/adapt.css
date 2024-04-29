@@ -1,0 +1,10 @@
+@media (max-width: 480px) {
+    main {
+        justify-content: center;
+        padding:  30px 5px;
+    }
+
+    .block-info, .block-link, .container-1 {
+        width: 100%;
+    }
+}
