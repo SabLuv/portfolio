@@ -50,7 +50,7 @@ main {
 .logo {
     width: 130px;
     height: 130px;
-    background-image: url(/assets/ava.jpg);
+    background-image: url(portfolio/assets/ava.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 100px;
