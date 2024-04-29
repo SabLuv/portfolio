@@ -1,0 +1,125 @@
+*{padding: 0; margin: 0; border: 0;}
+*, *:before, *:after{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html, body{height: 100%; width: 100%; font-style: 100%; line-height: 1; font-style: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+input, button, textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+body {
+    background-color: #17191f;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #888888;
+    font-weight: 700;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* container-1 */
+.container-1 {
+    width: 30%px;
+}
+
+.block-info {
+    width: 400px;
+    background-color: #21232c;
+    border-radius: 10px;
+    box-shadow: 0 0 7px#13141a;
+    clear: both;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    background-image: url(/assets/ava.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 100px;
+    outline-offset: 2px;
+    outline: 3px solid #6666ff;
+    margin: 0 auto;
+}
+
+.nick {
+    font-size: 20px;
+    color: #888888;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.block-link {
+    width: 400px;
+    margin-top: 20px;
+    background-color: #21232c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px#13141a;
+}
+
+.block-link a {
+    justify-content: space-between;
+    color: #888888;
+    display: flex;
+    align-items: center;
+}
+
+.block-link a:hover {
+    text-decoration: underline;
+}
+
+.github {
+    margin-bottom: 20px;
+}
+
+.block-link img {
+    filter: contrast(10%);
+}
+
+/* container-2 */
+/* .container-2 {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.block-pj {
+    width: 100%;
+    background-color: #21232c;
+    border-radius: 10px;
+    box-shadow: 0 0 7px#13141a;
+    padding: 15px;
+    justify-content: start;
+}
+
+.text-pj {
+    color: #888888;
+    margin-bottom: 20px;
+    font-weight: 700;
+} */
+
+/* .project {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #2d2f3b;
+} */
